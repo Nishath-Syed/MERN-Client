@@ -1,0 +1,40 @@
+.header {
+    background-color: #007BFF;
+    padding: 0;
+    height: 50px;
+  }
+  
+  .header h3 {
+    font-size: 40px;
+    color: black;
+    width: 80px;
+    border-radius: 5%;
+    margin-left: 20px;
+  }
+  
+  .header ul {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 10px; /* Adjust margin */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+  }
+  
+  /* Style for the list items */
+  .header ul li {
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .header ul li:hover {
+    color: #007BFF;
+    transform: scale(1.1);
+  }
+  
+  
