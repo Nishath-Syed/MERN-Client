@@ -5,6 +5,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Navbar from './Components/navbar';
 import Register from './Components/register';
 import Login from './Components/login';
+import Home from './Components/home';
 //import { Router } from 'react-router';
 
 const root = ReactDOM.createRoot(document.getElementById('root')); // root id from your HTML
@@ -17,6 +18,8 @@ root.render(
     <Router>
       <p>Changes Done Here</p>
       <Navbar/>
+      <p>Welcome</p>
+      <Home/>
       <Routes>
         <Route path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>
